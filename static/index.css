@@ -1,0 +1,24 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    margin: auto;
+    color: rgb(255, 255, 255);
+    background-image: radial-gradient( circle farthest-corner at 16.5% 28.1%,  rgba(15,27,49,1) 0%, rgba(0,112,218,1) 90% );
+    font-family:  'Plus Jakarta Sans';
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    animation: fadeIn 1s;
+    position: relative;
+
+
+
+    
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
